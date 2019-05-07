@@ -1,0 +1,9 @@
+<h1>Hello, world!</h1>
+
+<% lucky_number = rand(100) %>
+
+<% if lucky_number < 50 %>
+  <p>Your lucky number for the day is <%= lucky_number %>!</p>
+<% else %>
+  <p>Your unlucky number for the day is <%= lucky_number %>!</p>
+<% end %>
